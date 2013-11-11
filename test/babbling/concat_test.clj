@@ -17,4 +17,7 @@
 
   (testing "concat with 2 empty lists"
     (is (= '() (concat '() '()))))
+
+  (testing "concat with many lists"
+    (is (= '(1 1 2 3 :a :b) (concat '(1) '() '(1 2 3) '() '() '(:a :b)))))
 )
