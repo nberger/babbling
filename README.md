@@ -1,10 +1,10 @@
 # babbling
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure library designed to ... not much, just helping me to learn some clojure.
 
 ## Usage
 
-FIXME
+If I were you, I wouldn't use this.
 
 ## License
 
