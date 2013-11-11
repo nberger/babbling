@@ -11,4 +11,7 @@
 
   (testing "concat with a 1 element list"
     (is (= '(1) (concat '(1)))))
+
+  (testing "concat with 2 lists"
+    (is (= '(1 2) (concat '(1) '(2)))))
 )
