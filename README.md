@@ -1,5 +1,7 @@
 # babbling
 
+[![Build Status](https://travis-ci.org/nberger/clojure-babbling.png?branch=master)](https://travis-ci.org/nberger/clojure-babbling)
+
 A Clojure library designed to ... not much, just helping me to learn some clojure.
 
 ## Usage
