@@ -14,4 +14,7 @@
 
   (testing "concat with 2 lists"
     (is (= '(1 2) (concat '(1) '(2)))))
+
+  (testing "concat with 2 empty lists"
+    (is (= '() (concat '() '()))))
 )

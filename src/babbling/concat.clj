@@ -4,10 +4,9 @@
  ([] '())
  ([x] x)
  ([x y]
-  (cons
-    (first x)
-    (lazy-seq
-      (if (empty? (rest x))
-        (concat y)
-        (concat (rest x) y)))))
+  (lazy-seq
+    (let [s (seq x)]
+      (if s
+        (cons (first s) (concat (rest s) y))
+        y))))
 )
